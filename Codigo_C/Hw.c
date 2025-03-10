@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* main() {
-  printf("Hola Mundo!");
-  return "jdifji";
+int main() {
+  printf("\nAl diego le gusta el pico\n\n");
+  return 0;
 }
