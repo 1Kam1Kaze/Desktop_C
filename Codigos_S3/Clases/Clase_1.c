@@ -86,34 +86,32 @@
 //   }
 // }
 
-// Buscando primos en un intervalo
+//Buscando primos en un intervalo
 
-// #include <stdio.h>
-//
-// int main() {
-//     int inicio = 10, fin = 20;  // Establecemos el intervalo
-//     int número, divisor;
-//
-//     // Bucle 'for' que recorre los números del intervalo [inicio, fin]
-//     for (número = inicio; número <= fin; número++) {
-//         printf("\n\n*** Comenzando con el número: %d ***\n", número);
-//
-//         divisor = 2;  // Iniciamos divisor desde 2
-//
-//         // Bucle 'while' que verifica si el número es divisible por algún divisor
-//         while (número % divisor != 0 && divisor < número) {
-//             printf("Divisor: %d, %d %% %d = %d\n", divisor, número, divisor, número % divisor);
-//             divisor++;  // Incrementamos divisor
-//         }
-//
-//         // Aquí verificamos si 'divisor' llegó a ser igual al número
-//         if (divisor == número) {
-//             printf("¡%d es primo! (divisor == número)\n", número);
-//         } else {
-//             printf("¡%d NO es primo! (divisor encontrado: %d)\n", número, divisor);
-//         }
-//     }
-// }
+int main() {
+    int inicio = 10, fin = 20;  // Establecemos el intervalo
+    int número, divisor;
+
+    // Bucle 'for' que recorre los números del intervalo [inicio, fin]
+    for (número = inicio; número <= fin; número++) {
+        printf("\n\n*** Comenzando con el número: %d ***\n", número);
+
+        divisor = 2;  // Iniciamos divisor desde 2
+
+        // Bucle 'while' que verifica si el número es divisible por algún divisor
+        while (número % divisor != 0 && divisor < número) {
+            printf("Divisor: %d, %d %% %d = %d\n", divisor, número, divisor, número % divisor);
+            divisor++;  // Incrementamos divisor
+        }
+
+        // Aquí verificamos si 'divisor' llegó a ser igual al número
+        if (divisor == número) {
+            printf("¡%d es primo! (divisor == número)\n", número);
+        } else {
+            printf("¡%d NO es primo! (divisor encontrado: %d)\n", número, divisor);
+        }
+    }
+}
 
 // Funciones
 
