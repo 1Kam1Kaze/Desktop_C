@@ -1,7 +1,9 @@
-#include <stdio.h> // include es como el import y el stdio.h es como la libreria de c
+// include es como el import y el stdio.h es como la libreria de c
 
 // Estructura basica de un programa
 
+//#include <stdio.h>
+//
 // int main() {
 //   printf("\nHello world!\n");
 //   return 0;
@@ -9,6 +11,8 @@
 
 // Estructura basica de un programa
 
+//#include <stdio.h>
+//
 // int main() {
 //   double distancia, velocidad, tiempo;
 //   velocidad = 120;
@@ -19,6 +23,8 @@
 
 // Control de flujo
 
+//#include <stdio.h>
+//
 // int main() {
 //   int suma;
 //   suma = 2 + 4 + 6 + 8;
@@ -27,6 +33,8 @@
 
 // Repeticion (while)
 
+//#include <stdio.h>
+//
 // int main() {
 //   int suma, númeroPar;
 //   suma = 0;
@@ -40,6 +48,8 @@
 
 // Selecion (if)
 
+//#include <stdio.h> 
+//
 // int main() {
 //   int número, suma;
 //   número = 1;
@@ -69,6 +79,8 @@
 
 // Buscar primos en un intervalo
 
+//#include <stdio.h>
+//
 // int main() {
 //   int inicio,fin;
 //   int número,divisor;
@@ -88,33 +100,36 @@
 
 //Buscando primos en un intervalo
 
-int main() {
-    int inicio = 10, fin = 20;  // Establecemos el intervalo
-    int número, divisor;
-
-    // Bucle 'for' que recorre los números del intervalo [inicio, fin]
-    for (número = inicio; número <= fin; número++) {
-        printf("\n\n*** Comenzando con el número: %d ***\n", número);
-
-        divisor = 2;  // Iniciamos divisor desde 2
-
-        // Bucle 'while' que verifica si el número es divisible por algún divisor
-        while (número % divisor != 0 && divisor < número) {
-            printf("Divisor: %d, %d %% %d = %d\n", divisor, número, divisor, número % divisor);
-            divisor++;  // Incrementamos divisor
-        }
-
-        // Aquí verificamos si 'divisor' llegó a ser igual al número
-        if (divisor == número) {
-            printf("¡%d es primo! (divisor == número)\n", número);
-        } else {
-            printf("¡%d NO es primo! (divisor encontrado: %d)\n", número, divisor);
-        }
-    }
-}
+//#include <stdio.h>
+//
+// int main() {
+//     int inicio = 10, fin = 20;  // Establecemos el intervalo
+//     int número, divisor;
+//
+//     // Bucle 'for' que recorre los números del intervalo [inicio, fin]
+//     for (número = inicio; número <= fin; número++) {
+//         printf("\n\n*** Comenzando con el número: %d ***\n", número);
+//
+//         divisor = 2;  // Iniciamos divisor desde 2
+//
+//         // Bucle 'while' que verifica si el número es divisible por algún divisor
+//         while (número % divisor != 0 && divisor < número) {
+//             printf("Divisor: %d, %d %% %d = %d\n", divisor, número, divisor, número % divisor);
+//             divisor++;  // Incrementamos divisor
+//         }
+//
+//         // Aquí verificamos si 'divisor' llegó a ser igual al número
+//         if (divisor == número) {
+//             printf("¡%d es primo! (divisor == número)\n", número);
+//         } else {
+//             printf("¡%d NO es primo! (divisor encontrado: %d)\n", número, divisor);
+//         }
+//     }
+// }
 
 // Funciones
 
+//#include <stdio.h>
 //
 
 
