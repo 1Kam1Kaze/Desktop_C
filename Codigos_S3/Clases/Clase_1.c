@@ -1,6 +1,6 @@
-// include es como el import y el stdio.h es como la libreria de c
+// INFO include es como el import y el stdio.h es como la libreria de c
 
-// Estructura basica de un programa
+// INFO Estructura basica de un programa
 
 //#include <stdio.h>
 //
@@ -9,7 +9,7 @@
 //   return 0;
 // }
 
-// Estructura basica de un programa
+//  INFO Estructura basica de un programa
 
 //#include <stdio.h>
 //
@@ -21,7 +21,7 @@
 //   printf("%f", distancia);
 // }
 
-// Control de flujo
+// INFO Control de flujo
 
 //#include <stdio.h>
 //
@@ -31,7 +31,7 @@
 //   printf("%d", suma);
 // }
 
-// Repeticion (while)
+// INFO Repeticion (while)
 
 //#include <stdio.h>
 //
@@ -46,7 +46,7 @@
 //   printf("%d", suma);
 // }
 
-// Selecion (if)
+// INFO Selecion (if)
 
 //#include <stdio.h> 
 //
@@ -63,7 +63,7 @@
 //   printf("%d", suma);
 // }
 
-// Esquema de recorrido y busqueda 
+// INFO Esquema de recorrido y busqueda 
 
 // #include <stdio.h>
 //
@@ -77,7 +77,7 @@
 //         printf("No se ha encontrado");
 // 
 
-// Buscar primos en un intervalo
+// INFO Buscar primos en un intervalo
 
 //#include <stdio.h>
 //
@@ -98,7 +98,7 @@
 //   }
 // }
 
-//Buscando primos en un intervalo
+// INFO Buscando primos en un intervalo
 
 #include <stdio.h>
 
