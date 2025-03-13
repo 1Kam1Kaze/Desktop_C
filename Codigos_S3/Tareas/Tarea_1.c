@@ -1,18 +1,19 @@
-// 1. Propósito
 
-// El presente trabajo tiene por objetivo ejercitar el diseño de la lógica de programación en lenguajes de programación imperativos.
+// TODO 1. Propósito
 
-// 2. Enunciado
+// TODO El presente trabajo tiene por objetivo ejercitar el diseño de la lógica de programación en lenguajes de programación imperativos.
 
-// Diseñe, construya y pruebe un programa que obtenga sólo el primer número primo de un intervalo (use solamente secuencias, if y while).
+// TODO 2. Enunciado
 
-// 3. Recomendaciones
+// TODO Diseñe, construya y pruebe un programa que obtenga sólo el primer número primo de un intervalo (use solamente secuencias, if y while).
 
-// Se recomienda hacer un análisis de la situación y condiciones necesarias para resolver el problema. El código producido debe reflejar las conclusiones y supuestos definidos. La programación se hará en cualquier lenguaje que sea apropiado: C, C++, Pascal, Python, Rust, …
+// TODO 3. Recomendaciones
 
-// 4. Entrega
+// TODO Se recomienda hacer un análisis de la situación y condiciones necesarias para resolver el problema. El código producido debe reflejar las conclusiones y supuestos definidos. La programación se hará en cualquier lenguaje que sea apropiado: C, C++, Pascal, Python, Rust, …
 
-// La entrega se hará por correo electrónico a hmelendezc@docente.uss.cl. El sujeto del correo será PP-TA01-apellido-apellido.
+// TODO 4. Entrega
+
+// TODO La entrega se hará por correo electrónico a hmelendezc@docente.uss.cl. El sujeto del correo será PP-TA01-apellido-apellido.
 
 #include <stdio.h>
 
