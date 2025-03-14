@@ -13,7 +13,7 @@
 
 // INFO 4. Entrega
 
-// INFO La entrega se hará por correo electrónico a hmelendezc@docente.uss.cl. El sujeto del correo será PP-TA01-apellido-apellido.
+// INFO La entrega se hará por correo electrónico a hmelendezc@docente.uss.cl. El sujeto del correo será PP-TA01-Flores-Flores.
 
 #include <stdio.h>
 
@@ -39,18 +39,18 @@ int func_primo(int p) {
 int main() {
     //Datos
     int numero1, numero2, i;
-    printf("Ingrese el límite inferior del intervalo: ");
+    printf("\nIngrese el límite inferior del intervalo: ");
     scanf("%d", &numero1);
-    printf("Ingrese el límite superior del intervalo: ");
+    printf("\nIngrese el límite superior del intervalo: ");
     scanf("%d", &numero2);
     //Usamos la funcion de primo para ver si es o no
     for (i = numero1; i <= numero2; i++) {
         if (func_primo(i)) {
-            printf("El primer número primo en el intervalo es: %d\n", i);
+            printf("\nEl primer número primo en el intervalo es: %d\n\n", i);
             return 0;        }
     }
     //En caso de q no haya ningun primo
-    printf("No se encontró ningún número primo en el intervalo.\n");
+    printf("No se encontró ningún número primo en el intervalo.\n\n");
     return 0;
 }
 
